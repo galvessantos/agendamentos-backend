@@ -44,5 +44,5 @@ jobs:
           mvn -B verify sonar:sonar \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.organization=agendamentos \
-            -Dsonar.projectKey=AGENDAMENTOS_SAAS \
+            -Dsonar.projectKey=agendamentos_saas-agendamentos \
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
